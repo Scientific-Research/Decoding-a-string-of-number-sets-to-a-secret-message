@@ -50,7 +50,7 @@ var decode1 = (string) => {
   console.log(resultAlsArray);
 
   // MAP
-  result = resultAlsArray.map((num, index, array) => {
+  result = resultAlsArray.map((num) => {
     let resultForReduce = num.split("");
     console.log(resultForReduce);
     console.log(num.split(""));
